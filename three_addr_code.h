@@ -37,7 +37,7 @@ public:
 
         outcode << ""<< endl;
 
-        outcode << "//Three-Address Code" << endl << endl;
+        outcode << "// Three Address Code" << endl << endl;
 
         // 2. Call the generate_code method of the AST root
         if (ast_root) {

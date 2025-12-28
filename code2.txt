@@ -33,8 +33,8 @@ a = t6
 t7 = 2
 b = t7
 t8 = a
-t9 = b
 param t8
+t9 = b
 param t9
 t10 = call func, 2
 c = t10
@@ -50,46 +50,44 @@ goto L2
 L1:
 // Declaration: int a
 t15 = c
-t16 = t15 + t12
-a = t16
+t17 = t15 + t12
+a = t17
 a = t15
-t17 = 1
-t18 = t12 + t17
-i = t18
+t20 = 1
+t21 = t12 + t20
+i = t21
 goto L0
 L2:
-t19 = 10
-t20 = t15 > t19
-if t20 goto L3
+t23 = 10
+t24 = t15 > t23
+if t24 goto L3
 goto L4
 L3:
 // Declaration: float b
-t21 = 1.0
-t22 = 2
-param t21
-param t22
-t23 = call func2, 2
-b = t23
-t24 = b
-d = t24
+t25 = 1.0
+param t25
+t26 = 2
+param t26
+t27 = call func2, 2
+b = t27
+d = t27
 goto L5
 L4:
 L5:
 L6:
-t25 = 0
-t26 = t15 > t25
-if t26 goto L7
+t30 = 0
+t31 = t15 > t30
+if t31 goto L7
 goto L8
 L7:
 // Declaration: int i
-t27 = 1
-t28 = t15 - t27
-c = t28
-t29 = c
-i = t29
+t33 = 1
+t34 = t15 - t33
+c = t34
+i = t34
 goto L6
 L8:
-return t28
+return t34
 
 
 //========== END OF CODE ==========
